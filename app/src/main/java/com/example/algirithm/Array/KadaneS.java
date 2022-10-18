@@ -2,7 +2,8 @@ package com.example.algirithm.Array;
 
 import java.util.Scanner;
 
-/** Find Contigous maximum sub array.
+/**
+ * Find Contigous maximum sub array.
  * @Author: Archana Kumari
  * @Date: 09-10-2022
  */
