@@ -1,6 +1,4 @@
-package com.example.algirithm.Algo.Math;
-
-import android.provider.Settings;
+package com.example.algorithm.Algo.Math;
 
 import java.util.Scanner;
 

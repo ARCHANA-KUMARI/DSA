@@ -1,4 +1,4 @@
-package com.example.algirithm;
+package com.example.algorithm;
 
 import androidx.appcompat.app.AppCompatActivity;
 
