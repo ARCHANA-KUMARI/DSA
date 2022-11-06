@@ -8,9 +8,12 @@ import java.util.Scanner;
  */
 public class StackDriver {
     public static void main(String[] args) {
-        Stack stack = new Stack(10);
-        int choice;
+        System.out.println("Enter stack size:");
         Scanner scanner = new Scanner(System.in);
+        Stack stack = new Stack(scanner.nextInt());
+
+        int choice;
+
         while (true) {
             System.out.println("Press 1. to push:");
             System.out.println("Press 2. to pop:");
@@ -36,8 +39,10 @@ public class StackDriver {
                     stack.display();
                     break;
                 default:
+                    scanner.close();
                     System.exit(0);
             }
         }
+
     }
 }
