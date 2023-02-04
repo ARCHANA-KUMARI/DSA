@@ -3,6 +3,7 @@ package com.example.algorithm.Array.bruteforce;
 /**
  * Given an array of N elements.Find the count of pairs (i,j) where i & j are indices such that array[i] + array[j] = k.
  * i!= j , i < j
+ * TC = O(n^2) SC = O(1)
  * @Author: Archana Kumari
  * @Date: 03-02-2023
  */

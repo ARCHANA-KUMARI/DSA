@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 /**
  * You are given an array A of N elements. Find the number of triplets i,j and k such that i<j<k and A[i]<A[j]<A[k]
+ * TC: O(n^2) SC:O(1)
  * @Author: Archana Kumari
  * @Date: 03-02-2023
  */
