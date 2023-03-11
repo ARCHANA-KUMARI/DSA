@@ -14,4 +14,14 @@ public class Utils {
         }
         return max;
     }
+
+    public static int getMin(int arr[]) {
+        int min = Integer.MAX_VALUE;
+        for (int data : arr) {
+            if (data < min) {
+                min = data;
+            }
+        }
+        return min;
+    }
 }
