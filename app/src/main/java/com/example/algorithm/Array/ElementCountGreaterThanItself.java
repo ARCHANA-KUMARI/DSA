@@ -15,7 +15,7 @@ public class ElementCountGreaterThanItself {
         //int array[] = new int[]{2, 5, 1, 4, 8, 0, 8, 1, 3, 8}; // ans = 7
         //int array[] = new int[]{1,1,1,1,1};
        // System.out.println("Element count which is greater than itself" + countElementGreaterThanItself(array));
-        System.out.println("Element count which is greater than itself" + countElementGreaterThanItselfInOneLoop(array));
+        //System.out.println("Element count which is greater than itself" + countElementGreaterThanItselfInOneLoop(array));
     }
 
     public static long countElementGreaterThanItself(int array[]) {
