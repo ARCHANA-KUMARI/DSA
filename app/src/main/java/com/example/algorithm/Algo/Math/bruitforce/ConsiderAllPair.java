@@ -1,4 +1,4 @@
-package com.example.algorithm.Algo.Math;
+package com.example.algorithm.Algo.Math.bruitforce;
 
 public class ConsiderAllPair {
     public static void main(String[] args) {
