@@ -12,7 +12,7 @@ import java.util.Set;
 
 public class PrintSubstrings {
 
-    public static void printUniqueSubstrings(String s) {
+    public static int printUniqueSubstrings(String s) {
         int n = s.length();
         int count = 0;
         for (int i = 0; i < n; i++) {
@@ -28,6 +28,7 @@ public class PrintSubstrings {
             }
         }
         System.out.println("count = " + count);
+        return count;
     }
 
     public static void main(String[] args) {
