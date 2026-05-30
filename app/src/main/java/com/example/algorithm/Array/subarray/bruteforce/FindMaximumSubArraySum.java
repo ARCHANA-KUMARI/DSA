@@ -12,7 +12,7 @@ public class FindMaximumSubArraySum {
         System.out.println("findMaxSubArraySum(arr) = " + findMaxSubArraySum(arr));
     }
     
-    private static int findMaxSubArraySum(int array[]){
+     public static int findMaxSubArraySum(int array[]){
         int maxSubArraySum = array[0];
 
         for(int i = 0; i < array.length;i++){
