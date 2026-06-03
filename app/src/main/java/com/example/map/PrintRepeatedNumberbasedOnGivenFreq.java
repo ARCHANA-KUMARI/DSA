@@ -14,10 +14,11 @@ import java.util.Map;
 
 public class PrintRepeatedNumberbasedOnGivenFreq {
     public static void main(String[] args) {
-        int[] array = {3, 1, 4, 4, 5, 2, 6, 1};
+        //int[] array = {3, 1, 4, 4, 5, 2, 6, 1};
+        int[] array = {3, 1, 4, 4,4, 5, 2, 6, 1};
+
         HashMap<Integer, Integer> map = findRepeatedNumber(array);
         System.out.println("map = " + map);
-        // Filter values equal to 2
         // Filtering manually equal to 2
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (entry.getValue() == 2) {
