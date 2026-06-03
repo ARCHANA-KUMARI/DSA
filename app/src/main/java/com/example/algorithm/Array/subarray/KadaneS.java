@@ -1,4 +1,4 @@
-package com.example.algorithm.Array;
+package com.example.algorithm.Array.subarray;
 
 import java.util.Scanner;
 
