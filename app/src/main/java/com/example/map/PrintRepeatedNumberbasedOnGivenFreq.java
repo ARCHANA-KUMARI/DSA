@@ -7,8 +7,6 @@
 
 package com.example.map;
 
-import android.os.Build;
-
 import java.util.HashMap;
 import java.util.Map;
 
