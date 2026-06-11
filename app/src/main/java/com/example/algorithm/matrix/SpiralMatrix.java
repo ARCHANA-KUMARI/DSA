@@ -33,25 +33,25 @@ public class SpiralMatrix {
         int startRow = 0;
         int startCol = 0;
         int endRow = m - 1;
-        int endCOl = n - 1;
+        int endCol = n - 1;
 
-        while (startRow <= endRow && startCol <= endCOl) {
-            for (int i = startCol; i <= endCOl; i++) {
+        while (startRow <= endRow && startCol <= endCol) {
+            for (int i = startCol; i <= endCol; i++) {
                 list.add(matrix[startRow][i]);
             }
             startRow = startRow + 1;
             for (int i = startRow; i <= endRow; i++) {
-                list.add(matrix[i][endCOl]);
+                list.add(matrix[i][endCol]);
             }
-            endCOl = endCOl - 1;
+            endCol = endCol - 1;
             if (startRow <= endRow) {
-                for (int i = endCOl; i >= startCol; i--) {
+                for (int i = endCol; i >= startCol; i--) {
                     list.add(matrix[endRow][i]);
                 }
                 endRow = endRow - 1;
             }
 
-            if (startCol <= endCOl) {
+            if (startCol <= endCol) {
                 for (int i = endRow; i >= startRow; i--) {
                     list.add(matrix[i][startCol]);
                 }
